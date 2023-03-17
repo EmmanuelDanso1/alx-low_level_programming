@@ -5,15 +5,13 @@
 */
 int main(void)
 {
-/*usign ASCII code to print the alphabet game in lowercase which start from 97 and ends at 122*/
-/*initializing using a while loop*/
+/*using ASCII codes from 97 to 122 alphabet*/
 int n = 97;
 while (n <= 122)
 {
 putchar(n);
 n++;
 }
-/*putchar accepts only single quotes when initializing a new line*/
 putchar('\n');
 return (0);
 }
