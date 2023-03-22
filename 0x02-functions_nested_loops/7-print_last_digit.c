@@ -5,7 +5,7 @@
 *@n: The number in question
 *Return: last digit
 */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 int l;
 l = n % 10;
