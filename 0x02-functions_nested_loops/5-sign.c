@@ -2,7 +2,8 @@
 /**
 * print_sign - check if the input number is greater, equal of less than zero
 *@n: The input as an integer
-*Return: 1 is greater than zero. 0 is zero and -1 is less than zero
+*Return: 1 greater than zero. 0 is zero
+*-1 is less than zero
 */
 print_sign(int n)
 {
