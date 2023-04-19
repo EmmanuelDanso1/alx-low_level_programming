@@ -16,8 +16,6 @@ for (i = 0; i < size; i++)
 if (cmp(array[i]))
 return (i);
 }
-else
-{
 return (-1);
-}
+
 }
