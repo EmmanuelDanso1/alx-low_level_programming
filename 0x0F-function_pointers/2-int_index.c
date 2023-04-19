@@ -4,7 +4,7 @@
 *@array: array
 *@size: size of elements in array
 *@cmp:pointer to function of one of the 3 main
-*Return: 0;
+*Return: 0
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
