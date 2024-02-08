@@ -18,4 +18,5 @@ start = exception >> i;
 if (start & 1)
 cnt_bit++;
 }
+return (cnt_bit);
 }
