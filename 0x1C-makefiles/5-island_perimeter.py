@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-"""function def of a grid perimeter"""
+"""function def island_perimeter(grid)"""
 
 def island_perimeter(grid):
     """ returns perimeter of the grid island"""
+
     height = len(grid)
     width = len(grid[0])
     size = 0
     edges = 0
+
     for i in range(height):
         for j in range(width):
             if grid[i][j] == 1:
