@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""function def of a perimeter"""
+
 def island_perimeter(grid):
     """ returns perimeter of the grid island"""
     height = len(grid)
