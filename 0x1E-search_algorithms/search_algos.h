@@ -9,7 +9,7 @@
  * @n: Integer
  * @i: Index of the node in the list
  * @next: Pointer to the next node
- * Desc: singly linked list node structure
+ * Description: singly linked list node structure
  */
 typedef struct listint_s
 {
@@ -24,7 +24,7 @@ typedef struct listint_s
  * @i: Index of the node in the list
  * @next: Pointer to the next node
  * @express: Pointer to the next node in the express lane
- * Desc: singly linked list node structure with an express lane
+ * Description: singly linked list node structure with an express lane
  */
 typedef struct skiplist_s
 {
