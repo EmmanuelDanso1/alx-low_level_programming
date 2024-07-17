@@ -5,6 +5,7 @@
  * @size: the number of elements in array
  * @value:  the value to search for
  * Return: -1 if value is not present in array or if array is NULL
+ * Desc: Prints a value to be compared in an array
  */
 int linear_search(int *array, size_t size, int value)
 {
