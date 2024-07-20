@@ -4,20 +4,18 @@
  * @array:  pointer to the first element of the array to search
  * @size: the number of elements in array
  * @value:  the value to search for
- * Return: -1 if value is not present in array or if array is NULL
- * Description: Prints a value to be compared in an array
+ * Return: index of value or -1 if not found
  */
 int linear_search(int *array, size_t size, int value)
 {
-	size_t j;
+	size_t i;
 	if (array == NULL)
 		return (-1);
-	for (j = 0; j < size; j++)
+	for (i = 0; i < size; i++)
 	{
-		printf("Value checked array[%ld] = [%d]\n", j, array[j];
-				if (array[j] == value)
-				return (j);
+		printf("Value checked array[%ld] = [%d]\n", i, array[i];
+				if (array[i] == value)
+				return (i);
 	}
 	return (-1);
 }
-
